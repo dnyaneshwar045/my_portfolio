@@ -436,6 +436,25 @@ main {
   color: #004182; /* Darker LinkedIn blue on hover */
 }
 
+.download-cv-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  margin-top: 1em;         
+  margin-left: 1.3rem;
+  padding: 0.5em 1.2em;
+  background: var(--orange-yellow-crayola, #ffc107);
+  color: #222;
+  border-radius: 5px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.5s;
+}
+.download-cv-btn:hover {
+  background: #ff9800;
+  color: #fff;
+}
+
 
 
 
@@ -1086,6 +1105,17 @@ textarea.form-input::-webkit-resizer { display: none; }
     max-width: calc(100% - 64px);
     width: calc(100% - 64px);
   }
+	.download-cv-btn {
+    display: flex;
+    width: 100%;
+    margin: 1em 0 0 0;
+    text-align: center;
+    justify-content: center;
+  }
+.download-cv-btn:hover {
+  background: #ff9800;
+  color: #fff;
+}
 
 
 
