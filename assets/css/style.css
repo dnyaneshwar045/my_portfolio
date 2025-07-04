@@ -143,9 +143,6 @@ html { font-family: var(--ff-poppins); }
 body { background: var(--smoky-black); }
 
 
-
-
-
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
@@ -272,10 +269,6 @@ article {
   border-radius: inherit;
   z-index: -1;
 }
-
-
-
-
 
 /*-----------------------------------*\
   #MAIN
@@ -979,7 +972,11 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .clients-item { min-width: calc(33.33% - 10px); }
-
+.navbar-link{
+  padding: 10px 15px;
+  color: var(--light-gray);
+  transition: var(--transition-1);
+}
 
 
   /**
@@ -1105,7 +1102,10 @@ textarea.form-input::-webkit-resizer { display: none; }
     max-width: calc(100% - 64px);
     width: calc(100% - 64px);
   }
-	.download-cv-btn {
+
+
+
+.download-cv-btn {
     display: flex;
     width: 100%;
     margin: 1em 0 0 0;
@@ -1116,15 +1116,12 @@ textarea.form-input::-webkit-resizer { display: none; }
   background: #ff9800;
   color: #fff;
 }
-
-
-
   /**
    * #NAVBAR
    */
 
   .navbar { border-radius: 20px 20px 0 0; }
-
+  
   .navbar-list { gap: 20px; }
 
   .navbar-link { --fs-8: 14px; }
@@ -1155,71 +1152,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .service-content-box { text-align: left; }
-
-  /* testimonials */
-
-  .testimonials-title { margin-bottom: 25px; }
-
-  .testimonials-list {
-    gap: 30px;
-    margin: 0 -30px;
-    padding: 30px;
-    padding-bottom: 35px;
-  }
-
-  .content-card {
-    padding: 30px;
-    padding-top: 25px;
-  }
-
-  .testimonials-avatar-box {
-    transform: translate(30px, -30px);
-    border-radius: 20px;
-  }
-
-  .testimonials-avatar-box img { width: 80px; }
-
-  .testimonials-item-title {
-    margin-bottom: 10px;
-    margin-left: 95px;
-  }
-
-  .testimonials-text {
-    line-clamp: 2;
-    -webkit-line-clamp: 2;
-  }
-
-  /* testimonials modal */
-
-  .modal-container { padding: 20px; }
-
-  .testimonials-modal {
-    display: flex;
-    justify-content: flex-start;
-    align-items: stretch;
-    gap: 25px;
-    padding: 30px;
-    border-radius: 20px;
-  }
-
-  .modal-img-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .modal-avatar-box {
-    border-radius: 18px;
-    margin-bottom: 0;
-  }
-
-  .modal-avatar-box img { width: 65px; }
-
-  .modal-img-wrapper > img {
-    display: block;
-    flex-grow: 1;
-    width: 35px;
-  }
 
   /* clients */
 
