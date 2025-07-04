@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--favicon-->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--- custom css link-->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--- google font link--->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- #MAIN-->
+
+  <main>
+
+    <!-- #SIDEBAR-->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="dnyaneshwar" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Dnyaneshwar Jadhav">Dnyaneshwar Jadhav</h1>
+
+          <p class="title">Java & Web Developer</p>
+          <a href="./assets/images/Dnyaneshwar_jadhav_resume.pdf" download class="download-cv-btn">
+          <ion-icon name="download-outline"></ion-icon> Download CV
+          </a>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:dnyaneshwarjadhav4082004@gmail.com" class="contact-link">dnyaneshwarjadhav4082004@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+919322514620" class="contact-link">+91 9322514620</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">4 August, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Aurangabad, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+  <li class="social-item">
+    <a href="https://www.facebook.com/dnyaneshwar.jadhav.664937/" class="social-link">
+      <ion-icon name="logo-facebook"></ion-icon>
+    </a>
+  </li>
+  <li class="social-item">
+    <a href="https://www.linkedin.com/in/dnyaneshwar-jadhav-9b8b88259?trk=contact-info" class="social-link" target="_blank">
+      <ion-icon name="logo-linkedin"></ion-icon>
+    </a>
+  </li>
+  <li class="social-item">
+    <a href="https://www.instagram.com/dnyaneshwar_045/" class="social-link">
+      <ion-icon name="logo-instagram"></ion-icon>
+    </a>
+  </li>
+</ul>
+<script src="https://cdn.jsdelivr.net/npm/ionicons@5.5.2/dist/ionicons.js"></script>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+<div class="main-content">
+    <nav class="navbar" style="position:sticky;top:0;z-index:100;background:var(--eerie-black-2);width:100%;">
+    <ul class="navbar-list" style="display:flex;gap:1em;list-style:none;padding:1em 0;margin:0;justify-content:center;">
+      <li><a class="navbar-link" href="#about">About</a></li>
+      <li><a class="navbar-link" href="#resume">Resume</a></li>
+      <li><a class="navbar-link" href="#projects">Projects</a></li>
+      <li><a class="navbar-link" href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- #ABOUT -->
+  <article class="about active" data-page="about" id="about">
+          <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hello! I'm <b>Dnyaneshwar Jadhav</b>, a passionate Java and Web Developer based in Aurangabad, India. I love building robust backend systems and creating user-friendly, visually appealing web applications.
+          </p>
+          <p>
+            I am currently pursuing my B.Tech in Computer Science Engineering at Government College of Engineering Chh. Sambhajinagar. I enjoy solving real-world problems with code, learning new technologies, and collaborating on innovative projects.
+          </p>
+          <p>
+            My interests include Data Structures & Algorithms, Machine Learning, and building full-stack applications. I am always eager to take on new challenges and grow as a developer.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">DSA</h4>
+
+                <p class="service-item-text">
+                  I solve DSA problems regularly to improve my problem-solving skills and logical thinking, which helps me write optimized code for real-world applications.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+                <p class="service-item-text">
+                  My focus is on creating user-friendly, visually appealing, and high-performance web applications tailored to client needs.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/java.jpeg" alt="Java development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Java Development</h4>
+                <p class="service-item-text">
+                  I develop robust and scalable applications using Java, focusing on backend systems, APIs, and enterprise solutions with clean, maintainable code.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/student.jpeg" alt="student icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Student</h4>
+                <p class="service-item-text">
+                  As a dedicated student, I am passionate about continuous learning, exploring new technologies, and applying my knowledge to real-world projects and challenges.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Extra-curricular Acivities</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Walmart USA</h4>
+              <span>January 2025</span>
+              <div class="timeline-text">
+                <b>I have completed Walmart USA's Advanced Software Engineering on Forage. In the simulation</b>
+                <ul>
+                  <li>Completed the Advanced Software Engineering Job Simulation where I solved
+                    difficult technical projects for a variety of teams at Walmart.</li>
+                  <li>Developed a novel version of a heap data structure in Java for Walmart’s
+                    shipping department, showcasing strong problem-solving and algorithmic
+                    skills.</li>
+                  <li>Designed a UML class diagram for a data processor, considering different
+                    operating modes and database connections.</li>
+                  <li>Created an entity relationship diagram to design a new database accounting
+                    for all requirements provided by Walmart’s pet department.</li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Electronic Arts</h4>
+              <span>January 2025</span>
+              <div class="timeline-text">
+                <b>I have completed Electronic Arts's Software Engineering on Forage. In the simulation I:</b>
+                <ul>
+                  <li>Proposed a new feature for the Sims 4 and wrote a Feature Proposal describing it to other stakeholders.</li>
+                  <li>Built a class diagram and created a header file in C++ with class definitions for each object.</li>
+                  <li>Patched a bugfix and optimized the Sims 4 codebase by implementing an improved data structure.</li>
+                </ul>
+              </div>
+            </li>
+
+
+          </ol>
+
+        </section>
+
+  </article>
+
+  <!-- #RESUME -->
+  <article class="resume" data-page="resume" id="resume">
+            <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">●	Government College of Engineering Chh. Sambhajinagar </h4>
+
+              <span>2022 — 2026</span>
+
+              <p class="timeline-text">
+                B. Tech in Computer Science Engineering | 2022-2026 | CGPA- 8.20
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">K. K. Wagh Art, Science and Commerce College Pimpalgoan (B)</h4>
+
+              <span>2022</span>
+
+              <p class="timeline-text">
+                Class XII (State Board) | 2022 | Percentage: 80.33%
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">●	K. K. Wagh High School Dhodambe, Nashik</h4>
+
+              <span>2020</span>
+
+              <p class="timeline-text">
+                Class X (State Board) | 2020 | Percentage: 88.40%
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="ribbon-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Certifications</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Java Programming Masterclass – Beginner to Master</h4>
+              <span>Udemy · Jan 2025</span>
+              <p class="timeline-text">
+                Successfully completed the Udemy Course Completion Certificate for Java Programming Masterclass – Beginner to Master.
+                <br>
+                <a href="https://www.udemy.com/certificate/UC-044fb282-0c06-445b-97af-29451a496f26/" target="_blank">View Certificate</a> 
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Enhancing Soft Skills and Personality</h4>
+              <span>NPTEL · Apr 2025</span>
+              <p class="timeline-text">
+                Successfully completed the NPTEL course "Enhancing Soft Skills and Personality".
+                <br>
+                <a href="https://drive.google.com/file/d/1bi9aRHLDOuHfpZuQO2OGHl8eVUjiLrTh/view?usp=drivesdk" target="_blank">View Certificate</a>
+              </p>
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Electronic Arts's Software Engineering</h4>
+              <span>Forage · 2025</span>
+              <p class="timeline-text">
+                Successfully completed the Forage virtual experience program: Electronic Arts's Software Engineering.<br>
+                <a href="https://www.linkedin.com/posts/dnyaneshwar-jadhav-9b8b88259_forage-certificate-activity-7283884242730635264-6vR3?utm_source=share&utm_medium=member_android&rcm=ACoAAD-2V5wBBWPwEJxBH68ceekqKEs6SS-9sIU" target="_blank">View Certificate</a>
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Walmart USA's Advanced Software Engineering</h4>
+              <span>Forage · 2025</span>
+              <p class="timeline-text">
+                Successfully completed the Forage virtual experience program: Walmart USA's Advanced Software Engineering.<br>
+                <a href="https://www.linkedin.com/posts/dnyaneshwar-jadhav-9b8b88259_forage-certificate-activity-7283390917502193664-X668?utm_source=share&utm_medium=member_android&rcm=ACoAAD-2V5wBBWPwEJxBH68ceekqKEs6SS-9sIU" target="_blank">View Certificate</a>
+              </p>
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C language</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Java</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Development</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+             <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Machine Learning</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+             <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">DBMS</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">DSA</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+  </article>
+
+  <!-- #Project -->
+  <article class="portfolio" data-page="portfolio" id="projects">
+    <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://dnyaneshwar045.github.io/weather_app/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/weather_app.png" alt="weather_app" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Weather App</h3>
+
+                <p class="project-category">Web Application</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Male_fashion.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Male Fashion</h3>
+
+                <p class="project-category">Web Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://dnyaneshwar045.github.io/Calculator/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/calculator.png" alt="Calculator" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Calculator</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://dnyaneshwar045.github.io/url_shortener/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/url_shortener.png" alt="url_shortener" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">URL Shortener</h3>
+
+                <p class="project-category">Web Development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://dnyaneshwar045.github.io/speech_to_text/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/speech_to_text.png" alt="speech_to_text" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Speech to Text Converter</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="https://dnyaneshwar045.github.io/youtube_clone/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Youtube_clone.png" alt="Youtube_clone" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Youtube Clone</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/dnyaneshwar045/employee_management">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Employee_mgmt.webp" alt="employee_management" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Employee Management System</h3>
+
+                <p class="project-category">Python Project</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://github.com/dnyaneshwar045/library_management">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/library_mgmt.webp" alt="library_management" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Library Management</h3>
+
+                <p class="project-category">Java Project</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+  </article>
+
+  <!-- #CONTACT -->
+  <article class="contact" data-page="contact" id="contact">
+    <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.123456789!2d75.3254225!3d19.8658864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdb98646c682597%3A0xa8b2601aaee25ca5!2sShree%20Ram%20Mandir!5e0!3m2!1sen!2sin!4vXXXXXXXXXXXXXX" 
+                width="400" 
+                height="300" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="https://formspree.io/f/xpwrbbla" method="POST" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
+            <button class="form-btn" type="submit">
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+
+        </section>
+  </article>
+
+    </div>
+
+  </main>
+<script>
+// Clear any stored scroll position or section on page load
+window.addEventListener('DOMContentLoaded', function() {
+  localStorage.removeItem('lastSection'); // optional: remove if previously stored
+  window.scrollTo(0, 0); // scrolls to top-left of the page
+});
+
+</script>
+  <script src="./assets/js/script.js"></script>
+
+  <!--ionicon link-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
